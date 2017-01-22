@@ -11,7 +11,7 @@ def get_mount_point():
     with open('out.json', 'w') as outfile:
         for item in f_file:
             linha = item.split()
-            jsondata = json.dumps(linha)
+            jsondata = json.dumps(linha, separators=(',', ': '), indent=4)
 
             outfile.write(jsondata)
 
