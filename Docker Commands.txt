@@ -1,0 +1,41 @@
+DOCKER INSTRUCTIONS
+
+
+
+
+DELETE ALL CONTAINERS
+docker rm $(docker ps -a -q)
+
+DELETE ALL IMAGES
+docker rmi $(docker images -q)
+
+
+
+MINICONDA
+
+conda list
+
+conda update conda
+
+
+MATPLOTLIB INSTALLING
+conda install matplotlib=1.2
+
+UPDATE MATPLOTLIB
+conda update matplotlib
+
+CREATE ENVIRONMENTS
+conda create --name abluba matplotlib
+abluba is the name of environment
+
+
+ENVIRONMENT LIST
+conda env list
+
+USE ENVIRONMENT
+source activate
+
+
+
+
+
