@@ -1,5 +1,5 @@
+""" Retrieve data from command line """
 import subprocess
-import sys
 import json
 
 
@@ -8,12 +8,12 @@ def get_mount_point():
     output = subprocess.check_output(['df', '-h'])
     output = output.decode('utf-8')
     f_file = output.split('\n')
+    with open('out.json', 'w') as outfile:
+        for item in f_file:
+            linha = item.split()
+            jsondata = json.dumps(linha)
 
-    print type(f_file)
-    print len(f_file)
-
-    for i in f_file:
-        print i.split('\n')
+            outfile.write(jsondata)
 
 if __name__ == ("__main__"):
     get_mount_point()
