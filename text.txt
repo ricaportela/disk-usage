@@ -1,9 +1,9 @@
-Sist. Arq.                           Tam. Usado Disp. Uso% Montado em
-/dev/mapper/vg_oc3060845136-lv_root  285G   35G  235G  13% /
+Filesystem                           Size  Used Avail Use% Mounted on
+/dev/mapper/vg_oc1745428181-lv_root  285G   24G  247G   9% /
 devtmpfs                             3.8G     0  3.8G   0% /dev
-tmpfs                                3.8G  3.3M  3.8G   1% /dev/shm
-tmpfs                                3.8G  9.1M  3.8G   1% /run
+tmpfs                                3.8G   18M  3.8G   1% /dev/shm
+tmpfs                                3.8G  9.2M  3.8G   1% /run
 tmpfs                                3.8G     0  3.8G   0% /sys/fs/cgroup
-tmpfs                                3.8G   60K  3.8G   1% /tmp
-/dev/sda1                            969M  141M  763M  16% /boot
-tmpfs                                769M   20K  769M   1% /run/user/500
+tmpfs                                3.8G   37M  3.8G   1% /tmp
+/dev/sda1                            969M   95M  808M  11% /boot
+tmpfs                                769M   20K  769M   1% /run/user/1000
