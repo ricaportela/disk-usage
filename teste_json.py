@@ -3,13 +3,17 @@ import json
 # Sist. Arq.                           Tam. Usado Disp. Uso% Montado em
 # /dev/mapper/vg_oc3060845136-lv_root  285G   35G  236G  13% /
 
-jsonData = {  "Sist. Arq ": "/dev/mapper/vg_oc3060845136-lv_root",
-              "Tamanho   ": "285G",
-              "Usado     ": "35G",
-              "Disponivel": "236G",
-              "Uso       ": "13%",
-              "Montado em": "/"
-          }
+
+jsondata = {
+    "disk-usage": {
+        "filesystem": "/dev/mapper/vg_oc3060845136-lv_root",
+        "size": "285G",
+        "used": "35G",
+        "available": "236G",
+        "use-perc": "13%",
+        "mounted-on": "/"
+    }
+}
 
 
-json.dump(jsonData, sys.stdout)
+json.dump(jsondata, sys.stdout)

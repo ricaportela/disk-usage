@@ -1,9 +1,10 @@
-Filesystem                           Size  Used Avail Use% Mounted on
-/dev/mapper/vg_oc1745428181-lv_root  285G   24G  247G   9% /
-devtmpfs                             3.8G     0  3.8G   0% /dev
-tmpfs                                3.8G   18M  3.8G   1% /dev/shm
-tmpfs                                3.8G  9.2M  3.8G   1% /run
-tmpfs                                3.8G     0  3.8G   0% /sys/fs/cgroup
-tmpfs                                3.8G   37M  3.8G   1% /tmp
-/dev/sda1                            969M   95M  808M  11% /boot
-tmpfs                                769M   20K  769M   1% /run/user/1000
+Filesystem      Size  Used Avail Use% Mounted on
+dev             3,9G     0  3,9G   0% /dev
+run             4,0G  1,2M  3,9G   1% /run
+/dev/sda1        61G  8,8G   49G  16% /
+tmpfs           4,0G   90M  3,9G   3% /dev/shm
+tmpfs           4,0G     0  4,0G   0% /sys/fs/cgroup
+tmpfs           4,0G   28M  3,9G   1% /tmp
+/dev/sda3        84G   26G   54G  32% /home
+tmpfs           799M  8,0K  799M   1% /run/user/1001
+tmpfs           799M   24K  799M   1% /run/user/1000
