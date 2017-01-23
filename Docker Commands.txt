@@ -1,4 +1,5 @@
 DOCKER INSTRUCTIONS
+sudo service docker restart
 
 
 
@@ -34,6 +35,7 @@ conda env list
 
 USE ENVIRONMENT
 source activate
+
 
 
 
